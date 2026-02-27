@@ -53,7 +53,6 @@ export default function Contact() {
                 <p className="section-subtitle">Let&apos;s work together or just say hello!</p>
 
                 <div className={styles.grid}>
-                    {/* Left: Info */}
                     <div className={styles.left}>
                         <div className="glass-card" style={{ padding: '2rem', height: '100%' }}>
                             <h3 className={styles.infoHeading}>Let&apos;s Connect</h3>
@@ -83,7 +82,6 @@ export default function Contact() {
                                 ))}
                             </div>
 
-                            {/* Availability badge */}
                             <div className={styles.availBadge}>
                                 <span className={styles.avDot} />
                                 <span>Available for internships & projects</span>
@@ -91,7 +89,6 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    {/* Right: Form */}
                     <div className={styles.right}>
                         <form className={`glass-card ${styles.form}`} onSubmit={handleSubmit}>
                             <h3 className={styles.formHeading}>Send a Message</h3>

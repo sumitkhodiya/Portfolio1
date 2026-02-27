@@ -37,7 +37,6 @@ body {
   line-height: 1.6;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -49,13 +48,11 @@ body {
   border-radius: 3px;
 }
 
-/* Selection */
 ::selection {
   background: rgba(59, 130, 246, 0.3);
   color: var(--text-primary);
 }
 
-/* Background grid pattern */
 .bg-grid {
   background-image: 
     linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
@@ -63,7 +60,6 @@ body {
   background-size: 60px 60px;
 }
 
-/* Glow orbs */
 .glow-orb {
   position: absolute;
   border-radius: 50%;
@@ -79,7 +75,6 @@ body {
   66% { transform: translate(-15px, 15px); }
 }
 
-/* Section styles */
 section {
   position: relative;
 }
@@ -102,7 +97,6 @@ section {
   margin-bottom: 3rem;
 }
 
-/* Pill badge */
 .pill {
   display: inline-flex;
   align-items: center;
@@ -116,7 +110,6 @@ section {
   border: 1px solid;
 }
 
-/* Glass card */
 .glass-card {
   background: rgba(17, 24, 39, 0.7);
   backdrop-filter: blur(12px);
@@ -130,7 +123,6 @@ section {
   transform: translateY(-4px);
 }
 
-/* Gradient text */
 .gradient-text {
   background: var(--accent-gradient);
   -webkit-background-clip: text;
@@ -145,7 +137,6 @@ section {
   background-clip: text;
 }
 
-/* Button styles */
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -198,7 +189,6 @@ section {
   transform: translateY(-2px);
 }
 
-/* Typing cursor */
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -208,7 +198,6 @@ section {
   color: var(--accent-blue);
 }
 
-/* Fade in animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -224,7 +213,6 @@ section {
   animation: fadeInUp 0.7s ease forwards;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hide-mobile { display: none !important; }
 }

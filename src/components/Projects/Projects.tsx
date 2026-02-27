@@ -57,13 +57,11 @@ export default function Projects() {
                             className={`${styles.projectCard} glass-card`}
                             id={`project-card-${project.id}`}
                         >
-                            {/* Card header */}
                             <div className={styles.cardHeader} style={{ background: project.gradient }}>
                                 <span className={styles.projectIcon}>{project.icon}</span>
                                 <div className={styles.cardNum}>0{idx + 1}</div>
                             </div>
 
-                            {/* Card content */}
                             <div className={styles.cardBody}>
                                 <div className={styles.tagRow}>
                                     {project.tags.map(tag => (
@@ -87,7 +85,6 @@ export default function Projects() {
                                     ))}
                                 </div>
 
-                                {/* Tech stack */}
                                 <div className={styles.techStack}>
                                     {project.tech.map((t) => (
                                         <span key={t} className={styles.techChip}>{t}</span>

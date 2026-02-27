@@ -36,7 +36,6 @@
     align-items: start;
 }
 
-/* Left */
 .infoHeading {
     font-size: 1.25rem;
     font-weight: 700;
@@ -141,7 +140,6 @@
     }
 }
 
-/* Form */
 .form {
     padding: 2rem;
     display: flex;

@@ -26,7 +26,6 @@ export default function About() {
                 <p className="section-subtitle">Who I am and what drives me</p>
 
                 <div className={styles.grid}>
-                    {/* Left: Description */}
                     <div className={styles.left}>
                         <div className="glass-card" style={{ padding: '2rem' }}>
                             <div className={styles.avatarRing}>
@@ -55,7 +54,6 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Right: Info cards */}
                     <div className={styles.right}>
                         <div className={styles.highlights}>
                             {highlights.map((h) => (
@@ -69,7 +67,6 @@ export default function About() {
                             ))}
                         </div>
 
-                        {/* Education timeline */}
                         <div className={`glass-card ${styles.educationCard}`}>
                             <h3 className={styles.eduHeading}>🎓 Education</h3>
                             {education.map((edu) => (

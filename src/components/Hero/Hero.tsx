@@ -39,40 +39,34 @@ export default function Hero() {
 
     return (
         <section id="home" className={`${styles.hero} bg-grid`}>
-            {/* Glow orbs */}
             <div className={`glow-orb ${styles.orb1}`} />
             <div className={`glow-orb ${styles.orb2}`} />
             <div className={`glow-orb ${styles.orb3}`} />
 
             <div className={styles.container}>
                 <div className={styles.content}>
-                    {/* Badge */}
                     <div className={`pill ${styles.badge}`}>
                         <span>🎓</span>
                         <span>Lovely Professional University</span>
                     </div>
 
-                    {/* Main heading */}
                     <h1 className={styles.heading}>
                         Hey, I&apos;m{' '}
                         <span className="gradient-text">Sumit Kumar</span>
                     </h1>
 
-                    {/* Typing role */}
                     <div className={styles.roleContainer}>
                         <span className={styles.rolePrefix}>I&apos;m a </span>
                         <span className={styles.typingText}>{displayText}</span>
                         <span className="cursor">|</span>
                     </div>
 
-                    {/* Description */}
                     <p className={styles.description}>
                         Passionate about building intelligent web applications and data-driven solutions.
                         Experienced in full-stack development with Django & Next.js, machine learning,
                         and database systems.
                     </p>
 
-                    {/* CTA buttons */}
                     <div className={styles.ctas}>
                         <a href="#projects" className="btn-primary" id="view-projects-btn">
                             <span>🚀</span> View Projects
@@ -82,7 +76,6 @@ export default function Hero() {
                         </a>
                     </div>
 
-                    {/* Quick stats */}
                     <div className={styles.stats}>
                         <div className={styles.stat}>
                             <span className={styles.statNum}>3+</span>
@@ -101,7 +94,6 @@ export default function Hero() {
                     </div>
                 </div>
 
-                {/* Right: Code block visual */}
                 <div className={styles.codeBlock}>
                     <div className={styles.codeHeader}>
                         <div className={styles.dot} style={{ background: '#ff5f57' }} />
@@ -134,7 +126,6 @@ print(me.build_solutions())`}
                 </div>
             </div>
 
-            {/* Scroll indicator */}
             <div className={styles.scrollIndicator}>
                 <div className={styles.scrollDot} />
             </div>
