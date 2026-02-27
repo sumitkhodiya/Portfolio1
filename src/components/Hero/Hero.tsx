@@ -1,41 +1,6 @@
-'use client';
-import { useState, useEffect } from 'react';
 import styles from './Hero.module.css';
 
-const roles = [
-    'B.Tech CSE (Data Science)',
-    'Full Stack Developer',
-    'Machine Learning Enthusiast',
-    'Python & Django Developer',
-    'Next.js Developer',
-];
-
 export default function Hero() {
-    const [roleIndex, setRoleIndex] = useState(0);
-    const [displayText, setDisplayText] = useState('');
-    const [isDeleting, setIsDeleting] = useState(false);
-    const [charIndex, setCharIndex] = useState(0);
-
-    useEffect(() => {
-        const current = roles[roleIndex];
-        const timeout = setTimeout(() => {
-            if (!isDeleting) {
-                setDisplayText(current.slice(0, charIndex + 1));
-                setCharIndex((prev) => prev + 1);
-                if (charIndex + 1 === current.length) {
-                    setTimeout(() => setIsDeleting(true), 1800);
-                }
-            } else {
-                setDisplayText(current.slice(0, charIndex - 1));
-                setCharIndex((prev) => prev - 1);
-                if (charIndex - 1 === 0) {
-                    setIsDeleting(false);
-                    setRoleIndex((prev) => (prev + 1) % roles.length);
-                }
-            }
-        }, isDeleting ? 50 : 80);
-        return () => clearTimeout(timeout);
-    }, [charIndex, isDeleting, roleIndex]);
 
     return (
         <section id="home" className={`${styles.hero} bg-grid`}>
@@ -56,9 +21,7 @@ export default function Hero() {
                     </h1>
 
                     <div className={styles.roleContainer}>
-                        <span className={styles.rolePrefix}>I&apos;m a </span>
-                        <span className={styles.typingText}>{displayText}</span>
-                        <span className="cursor">|</span>
+                        <span className={styles.rolePrefix}>Full Stack Developer</span>
                     </div>
 
                     <p className={styles.description}>
