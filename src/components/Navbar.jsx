@@ -22,8 +22,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold gradient-text cinema-glow">SK</h1>
-            <span className="ml-2 text-xs text-orange-400">Full-Stack Dev</span>
+            <h1 className="text-2xl font-bold gradient-text cinema-glow">SA</h1>
+            <span className="ml-2 text-xs text-orange-400">Cloud Engineer</span>
           </div>
 
           {/* Desktop Menu */}

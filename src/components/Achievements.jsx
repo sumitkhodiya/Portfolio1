@@ -5,26 +5,26 @@ export default function Achievements() {
   const achievements = [
     {
       icon: <FaTrophy className="text-4xl text-orange-400" />,
-      title: 'Hackathon Participation',
-      description: 'Participated in national-level and inter-college hackathons, developing innovative solutions under time constraints and collaborating with diverse teams.',
+      title: 'Solved 150+ LeetCode Problems',
+      description: 'Strengthening expertise in data structures, algorithms, and logical problem-solving through consistent practice on LeetCode, demonstrating strong competitive programming abilities.',
       color: 'yellow'
     },
     {
       icon: <FaStar className="text-4xl text-orange-400" />,
-      title: 'Continuous Learning',
-      description: 'Completed structured learning programs from industry leaders including Microsoft Learn, Coursera, and Google to enhance technical expertise.',
+      title: '3rd Position in PSBTE',
+      description: 'Ranked 3rd across the state in Diploma - Information Technology (Punjab State Board of Technical Education), demonstrating exceptional academic performance and dedication.',
       color: 'blue'
     },
     {
       icon: <FaUsers className="text-4xl text-cyan-400" />,
-      title: 'Community Contribution',
-      description: 'Actively contributed to developer communities and participated in technical events, sharing knowledge and collaborating with peers.',
+      title: 'Cybersecurity Training',
+      description: 'Completed practical Cyber Security training from CipherSchools covering security fundamentals, vulnerability analysis, ethical hacking basics, and real-world threat identification.',
       color: 'green'
     },
     {
       icon: <FaLaptop className="text-4xl text-orange-400" />,
-      title: 'Coding Excellence',
-      description: 'Participated in online coding platforms and challenges, demonstrating problem-solving skills and competitive programming abilities.',
+      title: 'Web Development Certification',
+      description: 'Completed hands-on Web Development training from VPRO INFOTECH covering frontend and backend fundamentals, responsive UI design, API integration, and building dynamic applications.',
       color: 'purple'
     }
   ]
@@ -56,10 +56,10 @@ export default function Achievements() {
         {/* Highlights */}
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { number: '10+', label: 'Competitions' },
-            { number: '50K+', label: 'Data Records Analyzed' },
-            { number: '100%', label: 'Automation Success' },
-            { number: '7.45', label: 'CGPA' }
+            { number: '150+', label: 'LeetCode Problems' },
+            { number: '70%', label: 'Malware Detection' },
+            { number: '95%+', label: 'Face Recognition Accuracy' },
+            { number: '7.5', label: 'CGPA' }
           ].map((item, idx) => (
             <div key={idx} className="text-center glass-effect p-6 rounded-lg border border-cyan-600/30">
               <div className="text-3xl font-bold text-orange-400 mb-2">{item.number}</div>

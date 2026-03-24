@@ -49,10 +49,10 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-1">Email</h4>
                   <a
-                    href="mailto:sumitkhodiya598@gmail.com"
+                    href="mailto:sakhtarshaik@gmail.com"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    sumitkhodiya598@gmail.com
+                    sakhtarshaik@gmail.com
                   </a>
                 </div>
               </div>
@@ -65,10 +65,10 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-1">Phone</h4>
                   <a
-                    href="tel:+918901193960"
+                    href="tel:+918240906402"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    +91-8901193960
+                    +91-8240906402
                   </a>
                 </div>
               </div>
@@ -94,12 +94,12 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-1">LinkedIn</h4>
                   <a
-                    href="https://linkedin.com/in/sumitkumar0112"
+                    href="https://www.linkedin.com/in/sadia-akhtar-shaikh/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    linkedin.com/in/sumitkumar0112
+                    linkedin.com/in/sadia-akhtar-shaikh
                   </a>
                 </div>
               </div>
@@ -112,12 +112,12 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-1">GitHub</h4>
                   <a
-                    href="https://github.com/sumitkhodiya"
+                    href="https://github.com/sadia712"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    github.com/sumitkhodiya
+                    github.com/sadia712
                   </a>
                 </div>
               </div>

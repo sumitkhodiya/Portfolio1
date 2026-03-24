@@ -4,44 +4,30 @@ import { FaGithub } from 'react-icons/fa'
 export default function Projects() {
   const projects = [
     {
-      title: 'Secure Healthcare Record Management System',
-      date: 'February 2026',
-      description: 'A patient-centric healthcare platform with full control over medical records, featuring OTP-based authentication, consent-driven access, and comprehensive audit logs.',
+      title: 'Static Malware Analyzer',
+      date: 'May 2025 - July 2025',
+      description: 'Developed a Python-based static analysis tool to detect malicious files by cross-referencing file hashes against a database of 1,000+ known malware signatures.',
       highlights: [
-        'OTP-based secure authentication for patients, doctors, and administrators',
-        'Consent-driven access system with patient approval',
-        'Time-bound and revocable access permissions',
-        'Integrated audit logs for transparency and accountability',
-        'Emergency access workflows with mandatory logging'
+        'Engineered automated hash computation using MD5, SHA-1, and SHA-256, reducing manual file verification time by approximately 70%',
+        'Implemented a structured reporting system (CSV/JSON) that increased accuracy of detection for known threats by eliminating human error during signature matching',
+        'Cross-referenced file hashes against 1,000+ malware signatures for comprehensive threat detection',
+        'Automated malware detection process with zero false positives in testing'
       ],
-      tags: ['React', 'Node.js', 'MongoDB', 'Security'],
-      github: 'https://github.com/sumitkhodiya'
+      tags: ['Python', 'Hashlib', 'Malware Detection', 'File Handling', 'Automation'],
+      github: 'https://github.com/sadia712'
     },
     {
-      title: 'Exam Invigilation Management System',
-      date: 'June 2025 - August 2025',
-      description: 'Automated database system for invigilator-to-exam scheduling with conflict detection and real-time reporting.',
+      title: 'Attendance Management System',
+      date: 'November 2024 - February 2025',
+      description: 'Built a real-time face detection system utilizing OpenCV and LBPH that maintains an accuracy rate of 95%+ under consistent lighting conditions.',
       highlights: [
-        'Automated 100% of invigilator-to-exam scheduling',
-        '4+ optimized relational tables improving retrieval speed by 30%',
-        'Conflict-detection logic reducing errors by 90%',
-        'Real-time reports cutting administrative workload by 40%'
+        'Built a real-time face detection system utilizing OpenCV and LBPH achieving 95%+ accuracy under consistent lighting conditions',
+        'Designed a high-performance dataset creation module capable of capturing and processing 50+ facial images per user for model training',
+        'Automated attendance logging into CSV/XLS formats, reducing manual entry time from minutes to milliseconds per person',
+        'Implemented multi-threading for real-time performance optimization'
       ],
-      tags: ['SQL', 'Database Design', 'Python'],
-      github: 'https://github.com/sumitkhodiya'
-    },
-    {
-      title: 'Exploratory Data Analysis - Mortality Trends',
-      date: 'November 2023 - December 2024',
-      description: 'Comprehensive analysis of 50,000+ records identifying trends and patterns in mortality data with advanced visualizations.',
-      highlights: [
-        'Analyzed 50,000+ records to identify trends and patterns',
-        'Cleaned and processed datasets, reducing issues by 70%',
-        'Created 10+ visualizations highlighting key risk factors',
-        'Improved reporting efficiency by 40%'
-      ],
-      tags: ['Python', 'Data Analysis', 'Visualization', 'SQL'],
-      github: 'https://github.com/sumitkhodiya'
+      tags: ['Python', 'OpenCV', 'Kivy', 'NumPy', 'Pandas', 'LBPH'],
+      github: 'https://github.com/sadia712'
     }
   ]
 

@@ -5,25 +5,24 @@ export default function Certifications() {
   const [certificates, setCertificates] = useState([
     {
       id: 1,
-      name: 'Responsive Web Design',
-      issuer: 'Developer Certification',
-      date: 'November 28, 2023',
-      hours: 'approximately 280 hours of work',
-      image: '/cert3.png'
+      name: 'Computational Theory: Language Principle & Finite Automata Theory',
+      issuer: 'Infosys',
+      date: 'August 2025',
+      image: '/cert1.png'
     },
     {
       id: 2,
-      name: 'Computational Theory: Language Principle & Finite Automata Theory',
-      issuer: 'Infosys Springguard',
-      date: 'August 30, 2025',
+      name: 'Privacy & Security in Online Social Media',
+      issuer: 'NPTEL',
+      date: 'April 2025',
       image: '/cert2.png'
     },
     {
       id: 3,
-      name: 'Computer Communications',
-      issuer: 'Coursera',
-      date: 'November 7, 2024',
-      image: '/cert1.png'
+      name: 'Data Structures and Algorithms',
+      issuer: 'Neo Colab',
+      date: 'December 2024',
+      image: '/cert3.png'
     }
   ])
 

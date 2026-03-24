@@ -9,19 +9,19 @@ export default function Hero() {
           {/* Left Content */}
           <div className="fade-in-scroll">
             <h1 className="text-6xl font-bold mb-4 gradient-text cinema-glow leading-tight">
-              Sumit Kumar
+              Sadia Akhtar
             </h1>
-            <p className="text-xl text-orange-400 mb-2 font-semibold">🚀 Full-Stack Developer</p>
+            <p className="text-xl text-orange-400 mb-2 font-semibold">🚀 Cloud & Cybersecurity Engineer</p>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Full-Stack Developer passionate about building scalable web applications and solving complex problems. 
-              Experienced in React, Next.js, Django, and modern web technologies.
+              Passionate cloud engineer and cybersecurity enthusiast with expertise in AWS, Docker, and Linux. 
+              Skilled in developing secure applications and automating infrastructure with a focus on cyber threats and threat detection.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
-                href="/sumitcv.pdf"
-                download="Sumit_Kumar_Resume.pdf"
+                href="/sadia_resume.pdf"
+                download="Sadia_Akhtar_Resume.pdf"
                 className="btn-primary flex items-center justify-center gap-2 order-first"
               >
                 <FaDownload /> Download Resume
@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="flex gap-6 items-center">
               <span className="text-gray-400 font-medium">Connect:</span>
               <a
-                href="https://github.com/sumitkhodiya"
+                href="https://github.com/sadia712"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl text-gray-300 hover:text-orange-400 transition-colors"
@@ -46,7 +46,7 @@ export default function Hero() {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/sumitkumar0112"
+                href="https://www.linkedin.com/in/sadia-akhtar-shaikh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl text-cyan-400 hover:text-orange-400 transition-colors"
@@ -54,13 +54,13 @@ export default function Hero() {
                 <FaLinkedin />
               </a>
               <a
-                href="mailto:sumitkhodiya598@gmail.com"
+                href="mailto:sakhtarshaik@gmail.com"
                 className="text-3xl text-red-400 hover:text-orange-400 transition-colors"
               >
                 <FaEnvelope />
               </a>
               <a
-                href="tel:+918901193960"
+                href="tel:+918240906402"
                 className="text-3xl text-green-400 hover:text-orange-400 transition-colors"
               >
                 <FaPhone />
@@ -71,10 +71,10 @@ export default function Hero() {
           {/* Right Side - Profile Image */}
           <div className="hidden md:flex flex-col items-center gap-6 slide-in-right">
             {/* Profile Image - No Outline */}
-            <div className="relative w-full max-w-2xl mx-auto">
+            <div className="relative w-full max-w-sm mx-auto">
               <img 
                 src="/profile.png" 
-                alt="Sumit Kumar" 
+                alt="Sadia Akhtar" 
                 className="w-full h-auto rounded-lg hover:shadow-2xl transition-shadow duration-300"
               />
             </div>
