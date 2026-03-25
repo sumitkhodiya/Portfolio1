@@ -8,21 +8,21 @@ export default function Certifications() {
       name: 'Computational Theory: Language Principle & Finite Automata Theory',
       issuer: 'Infosys',
       date: 'August 2025',
-      image: '/cert1.png'
+      image: './cert1.png'
     },
     {
       id: 2,
       name: 'Privacy & Security in Online Social Media',
       issuer: 'NPTEL',
       date: 'April 2025',
-      image: '/cert2.png'
+      image: './cert2.png'
     },
     {
       id: 3,
       name: 'Data Structures and Algorithms',
       issuer: 'Neo Colab',
       date: 'December 2024',
-      image: '/cert3.png'
+      image: './cert3.png'
     }
   ])
 

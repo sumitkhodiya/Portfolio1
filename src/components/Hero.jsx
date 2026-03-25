@@ -20,7 +20,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
-                href="/sadia_resume.pdf"
+                href="./my approved cv.pdf"
                 download="Sadia_Akhtar_Resume.pdf"
                 className="btn-primary flex items-center justify-center gap-2 order-first"
               >
@@ -73,7 +73,7 @@ export default function Hero() {
             {/* Profile Image - No Outline */}
             <div className="relative w-full max-w-sm mx-auto">
               <img 
-                src="/profile.png" 
+                src="./profile.png" 
                 alt="Sadia Akhtar" 
                 className="w-full h-auto rounded-lg hover:shadow-2xl transition-shadow duration-300"
               />
