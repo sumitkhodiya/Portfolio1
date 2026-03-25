@@ -4,30 +4,32 @@ import { FaGithub } from 'react-icons/fa'
 export default function Projects() {
   const projects = [
     {
-      title: 'Static Malware Analyzer',
-      date: 'May 2025 - July 2025',
-      description: 'Developed a Python-based static analysis tool to detect malicious files by cross-referencing file hashes against a database of 1,000+ known malware signatures.',
+      title: 'Secure Healthcare Record Management System',
+      date: 'February 2026',
+      description: 'Designed and developed a patient-centric healthcare platform where patients have full control over their medical records with enterprise-grade security.',
       highlights: [
-        'Engineered automated hash computation using MD5, SHA-1, and SHA-256, reducing manual file verification time by approximately 70%',
-        'Implemented a structured reporting system (CSV/JSON) that increased accuracy of detection for known threats by eliminating human error during signature matching',
-        'Cross-referenced file hashes against 1,000+ malware signatures for comprehensive threat detection',
-        'Automated malware detection process with zero false positives in testing'
+        'Implemented OTP-based secure authentication for patients, doctors, and administrators',
+        'Built a consent-driven access system allowing doctors to view medical records only after explicit patient approval',
+        'Developed time-bound and revocable access permissions to enhance data privacy and compliance',
+        'Integrated comprehensive audit logs to track every access request and record view for transparency and accountability',
+        'Implemented emergency access workflows with mandatory logging to ensure patient safety without compromising security'
       ],
-      tags: ['Python', 'Hashlib', 'Malware Detection', 'File Handling', 'Automation'],
-      github: 'https://github.com/sadia712'
+      tags: ['React', 'Django', 'MySQL', 'Security', 'Healthcare', 'Authentication'],
+      github: 'https://github.com/sumitkhodiya'
     },
     {
-      title: 'Attendance Management System',
-      date: 'November 2024 - February 2025',
-      description: 'Built a real-time face detection system utilizing OpenCV and LBPH that maintains an accuracy rate of 95%+ under consistent lighting conditions.',
+      title: 'Exploratory Data Analysis (EDA)',
+      date: 'November 2023 - December 2024',
+      description: 'Comprehensive analysis of 50,000+ records to identify trends and patterns in mortality data with actionable insights.',
       highlights: [
-        'Built a real-time face detection system utilizing OpenCV and LBPH achieving 95%+ accuracy under consistent lighting conditions',
-        'Designed a high-performance dataset creation module capable of capturing and processing 50+ facial images per user for model training',
-        'Automated attendance logging into CSV/XLS formats, reducing manual entry time from minutes to milliseconds per person',
-        'Implemented multi-threading for real-time performance optimization'
+        'Analysed 50,000+ records to identify critical trends and patterns in mortality data',
+        'Cleaned and processed raw datasets, reducing missing/inconsistent data issues by 70%',
+        'Created 10+ advanced visualizations including heatmaps, trend charts, and correlation matrices',
+        'Extracted actionable insights that improved data understanding and reporting efficiency by 40%',
+        'Generated comprehensive reports for stakeholder presentation and decision-making'
       ],
-      tags: ['Python', 'OpenCV', 'Kivy', 'NumPy', 'Pandas', 'LBPH'],
-      github: 'https://github.com/sadia712'
+      tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Data Analysis', 'Visualization'],
+      github: 'https://github.com/sumitkhodiya'
     }
   ]
 

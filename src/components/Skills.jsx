@@ -5,19 +5,19 @@ export default function Skills() {
   const skillCategories = [
     {
       category: 'Languages',
-      skills: ['C++', 'Python', 'C', 'Java']
+      skills: ['C++', 'Python', 'JavaScript', 'HTML & CSS', 'PL/SQL']
     },
     {
-      category: 'Cloud & Infrastructure',
-      skills: ['AWS (EC2, S3, IAM, VPC, CloudWatch)', 'Docker', 'Linux', 'CI/CD Pipelines', 'IaC']
+      category: 'Frameworks & Libraries',
+      skills: ['React', 'Next.JS', 'Django', 'Tailwind CSS']
     },
     {
-      category: 'Tools & Platforms',
-      skills: ['MySQL', 'Git', 'GitHub', 'HTML', 'CSS', 'MS Office']
+      category: 'Tools & Databases',
+      skills: ['MySQL', 'DBMS', 'Git', 'GitHub', 'VS Code', 'Vite']
     },
     {
       category: 'Soft Skills',
-      skills: ['Team Player', 'Project Management', 'Leadership', 'Adaptability']
+      skills: ['Self-Improvement', 'Curiosity', 'Adaptability', 'Emotional Intelligence', 'Work Ethic']
     }
   ]
 

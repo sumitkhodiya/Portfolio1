@@ -5,23 +5,26 @@ export default function Certifications() {
   const [certificates, setCertificates] = useState([
     {
       id: 1,
-      name: 'Computational Theory: Language Principle & Finite Automata Theory',
-      issuer: 'Infosys',
-      date: 'August 2025',
+      name: 'Computer Communications Specialization',
+      issuer: 'Coursera',
+      date: 'November 7, 2024',
+      description: 'Comprehensive specialization covering fundamental computer networking concepts and principles. Includes TCP/IP protocols, network architectures, packet switching, and advanced networking theory. Master essential skills needed for innovative work in network design and engineering.',
       image: './cert1.png'
     },
     {
       id: 2,
-      name: 'Privacy & Security in Online Social Media',
-      issuer: 'NPTEL',
-      date: 'April 2025',
+      name: 'Computational Theory: Language Principle & Finite Automata Theory',
+      issuer: 'Infosys Springboard',
+      date: 'September 24, 2025',
+      description: 'Advanced course in computational theory covering formal language principles and finite automata theory. Provides in-depth understanding of language recognition, computational principles, and their practical applications in computer science.',
       image: './cert2.png'
     },
     {
       id: 3,
-      name: 'Data Structures and Algorithms',
-      issuer: 'Neo Colab',
-      date: 'December 2024',
+      name: 'Responsive Web Design Developer Certification',
+      issuer: 'freeCodeCamp',
+      date: 'November 20, 2023',
+      description: 'Professional certification in responsive web design representing approximately 300 hours of coursework. Covers HTML, CSS, and responsive design principles. Equips developers with skills to create dynamic, user-friendly web applications across all devices.',
       image: './cert3.png'
     }
   ])
@@ -60,8 +63,8 @@ export default function Certifications() {
               <div className="p-6">
                 <h3 className="text-xl font-bold text-orange-400 mb-2">{cert.name}</h3>
                 <p className="text-cyan-400 font-semibold mb-2">{cert.issuer}</p>
-                <p className="text-gray-400 text-sm mb-2">{cert.date}</p>
-                {cert.hours && <p className="text-gray-400 text-sm italic">{cert.hours}</p>}
+                <p className="text-gray-400 text-sm mb-3">{cert.date}</p>
+                {cert.description && <p className="text-gray-300 text-sm leading-relaxed">{cert.description}</p>}
               </div>
             </div>
           ))}

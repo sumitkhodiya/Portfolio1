@@ -6,37 +6,37 @@ export default function Education() {
     {
       degree: 'Bachelor of Technology',
       field: 'Computer Science and Engineering',
-      institution: 'Lovely Professional University, Phagwara, Punjab',
-      duration: 'August 2024 - Present',
-      cgpa: '7.5',
+      institution: 'Lovely Professional University, Punjab, India',
+      duration: 'August 2023 - Present',
+      cgpa: '7.45',
       details: [
-        'Focus on Cloud Technologies and Cybersecurity',
-        'Active participant in security research and infrastructure projects',
-        'Member of cybersecurity and development communities'
+        'Focus on Full-Stack Development and Data Analysis',
+        'Active participant in hackathons and coding competitions',
+        'Member of developer communities and technical programs'
       ]
     },
     {
-      degree: 'Diploma',
-      field: 'Information Technology',
-      institution: 'SRS Government Polytechnic College for Girls, Ludhiana, Punjab',
-      duration: 'August 2021 - June 2024',
-      percentage: '90%',
+      degree: 'Intermediate',
+      field: 'Science',
+      institution: 'Rao Pahlad Singh Ser. Sec. School, Mahendergarh, Haryana',
+      duration: 'April 2021 - March 2022',
+      percentage: '81%',
       details: [
-        'Ranked 3rd across the state in Diploma - Information Technology (PSBTE)',
-        'Strong foundation in core IT concepts and programming',
-        'Developed multiple projects in software development'
+        'Strong foundation in Physics, Chemistry, and Mathematics',
+        'Developed analytical and problem-solving skills',
+        'Participated in academic competitions'
       ]
     },
     {
       degree: 'Matriculation',
       field: 'Science',
-      institution: 'Children Valley Public Sr. Sec. School, Ludhiana, Punjab',
-      duration: 'April 2020 - March 2021',
-      percentage: '100%',
+      institution: 'Rao Pahlad Singh Ser. Sec. Academy, Mahendergarh, Haryana',
+      duration: 'April 2019 - March 2020',
+      percentage: '94%',
       details: [
-        'Scored 100% in matriculation examination',
-        'Strong foundation in Physics, Chemistry, and Mathematics',
-        'Developed analytical and problem-solving skills'
+        'Achieved 94% overall performance',
+        'Excellence in Physics, Chemistry, and Mathematics',
+        'Developed strong foundational knowledge in core subjects'
       ]
     }
   ]

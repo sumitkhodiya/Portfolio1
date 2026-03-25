@@ -10,33 +10,30 @@ export default function About() {
           {/* Content */}
           <div className="fade-in-scroll">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate Cloud and Cybersecurity Engineer pursuing my Bachelor of Technology 
-              in Computer Science and Engineering at Lovely Professional University with a CGPA of 7.5.
+              I'm a passionate Computer Science and Engineering student at Lovely Professional University pursuing my Bachelor of Technology with a CGPA of 7.45.
             </p>
             
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              With expertise in AWS cloud technologies, Docker containerization, and cybersecurity fundamentals, 
-              I specialize in building secure, automated infrastructure and developing detection tools for malicious threats. 
-              I'm particularly interested in securing applications and identifying vulnerabilities through ethical hacking practices.
+              With expertise in full-stack development, data analysis, and healthcare systems, I specialize in building secure, user-centric applications. 
+              I'm proficient in React, Next.JS, Django, and have strong skills in database design with MySQL and Python.
             </p>
 
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              My journey includes developing a Static Malware Analyzer that detects malicious files with 
-              automated hash computation across 1,000+ malware signatures, and building a real-time face detection 
-              attendance system achieving 95%+ accuracy using OpenCV and LBPH.
+              My recent projects include developing a Secure Healthcare Record Management System with OTP-based authentication, 
+              consent-driven access control, and comprehensive audit logging for transparency and accountability.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm driven by curiosity about cybersecurity threats, adaptability in cloud technologies, 
-              and a commitment to continuous learning through hands-on projects and certifications. 
-              I actively engage in problem-solving across platforms like LeetCode with 150+ problems solved.
+              I'm driven by curiosity about emerging technologies, adaptability in solving complex problems, 
+              and a commitment to continuous learning through hands-on projects. I actively participate in hackathons, 
+              online coding challenges, and structured learning programs from industry leaders.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-6">
             <div className="glass-effect p-8 rounded-lg text-center hover-lift border border-cyan-600/30">
-              <div className="text-4xl font-bold text-orange-400 mb-2">2</div>
+              <div className="text-4xl font-bold text-orange-400 mb-2">3+</div>
               <p className="text-gray-300">Major Projects</p>
             </div>
             <div className="glass-effect p-8 rounded-lg text-center hover-lift border border-cyan-600/30">
@@ -44,8 +41,8 @@ export default function About() {
               <p className="text-gray-300">Certifications</p>
             </div>
             <div className="glass-effect p-8 rounded-lg text-center hover-lift border border-cyan-600/30">
-              <div className="text-4xl font-bold text-orange-400 mb-2">150+</div>
-              <p className="text-gray-300">LeetCode Problems</p>
+              <div className="text-4xl font-bold text-orange-400 mb-2">7.45</div>
+              <p className="text-gray-300">CGPA</p>
             </div>
             <div className="glass-effect p-8 rounded-lg text-center hover-lift border border-cyan-600/30">
               <div className="text-4xl font-bold text-orange-400 mb-2">∞</div>

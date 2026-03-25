@@ -5,26 +5,26 @@ export default function Achievements() {
   const achievements = [
     {
       icon: <FaTrophy className="text-4xl text-orange-400" />,
-      title: 'Solved 150+ LeetCode Problems',
-      description: 'Strengthening expertise in data structures, algorithms, and logical problem-solving through consistent practice on LeetCode, demonstrating strong competitive programming abilities.',
+      title: 'Hackathon Participant',
+      description: 'Actively participated in national-level and inter-college hackathons, demonstrating innovation and problem-solving skills through real-world project development.',
       color: 'yellow'
     },
     {
       icon: <FaStar className="text-4xl text-orange-400" />,
-      title: '3rd Position in PSBTE',
-      description: 'Ranked 3rd across the state in Diploma - Information Technology (Punjab State Board of Technical Education), demonstrating exceptional academic performance and dedication.',
+      title: 'Structured Learning Programs',
+      description: 'Successfully completed comprehensive learning programs from industry leaders including Microsoft Learn, Coursera, and Google, expanding technical expertise and industry knowledge.',
       color: 'blue'
     },
     {
       icon: <FaUsers className="text-4xl text-cyan-400" />,
-      title: 'Cybersecurity Training',
-      description: 'Completed practical Cyber Security training from CipherSchools covering security fundamentals, vulnerability analysis, ethical hacking basics, and real-world threat identification.',
+      title: 'Developer Community Contributor',
+      description: 'Actively contributed to developer communities and technical events, sharing knowledge and collaborating with peers on cutting-edge technology projects.',
       color: 'green'
     },
     {
       icon: <FaLaptop className="text-4xl text-orange-400" />,
-      title: 'Web Development Certification',
-      description: 'Completed hands-on Web Development training from VPRO INFOTECH covering frontend and backend fundamentals, responsive UI design, API integration, and building dynamic applications.',
+      title: 'Online Coding Challenges',
+      description: 'Regularly participated in online coding platforms and challenges, consistently improving problem-solving abilities and competitive programming skills.',
       color: 'purple'
     }
   ]
@@ -56,10 +56,10 @@ export default function Achievements() {
         {/* Highlights */}
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { number: '150+', label: 'LeetCode Problems' },
-            { number: '70%', label: 'Malware Detection' },
-            { number: '95%+', label: 'Face Recognition Accuracy' },
-            { number: '7.5', label: 'CGPA' }
+            { number: '50K+', label: 'Records Analyzed' },
+            { number: '70%', label: 'Data Quality Improved' },
+            { number: '10+', label: 'Visualizations Created' },
+            { number: '7.45', label: 'CGPA' }
           ].map((item, idx) => (
             <div key={idx} className="text-center glass-effect p-6 rounded-lg border border-cyan-600/30">
               <div className="text-3xl font-bold text-orange-400 mb-2">{item.number}</div>
